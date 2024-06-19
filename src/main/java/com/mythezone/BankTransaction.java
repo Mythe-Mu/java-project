@@ -1,7 +1,11 @@
 package com.mythezone;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.time.LocalDate;
 import java.util.Objects;
+
 
 public class BankTransaction {
     private final LocalDate date;
